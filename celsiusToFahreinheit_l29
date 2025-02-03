@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-
 void celsiusToFahrenheit(float celsius) {
     float fahrenheit = (celsius * 9/5) + 32;
     printf("%.2f Celsius = %.2f Fahrenheit\n", celsius, fahrenheit);
@@ -44,6 +42,29 @@ int main() {
 
     return 0;
 }
+
 Explanation:
 Conversion Functions: Two functions perform the conversion between Celsius and Fahrenheit.
 Menu: The user can select the conversion direction, enter the temperature, and get the converted result.
+
+Input:
+Temperature Converter
+1. Celsius to Fahrenheit
+2. Fahrenheit to Celsius
+3. Exit
+Enter your choice: 1
+Enter the temperature: 36
+36.00 Celsius = 96.80 Fahrenheit
+Output:
+Temperature Converter
+1. Celsius to Fahrenheit
+2. Fahrenheit to Celsius
+3. Exit
+Enter your choice: 2
+Enter the temperature: 65
+65.00 Fahrenheit = 18.33 Celsius
+
+Temperature Converter
+1. Celsius to Fahrenheit
+2. Fahrenheit to Celsius
+3. Exit
